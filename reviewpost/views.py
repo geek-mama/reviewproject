@@ -63,3 +63,6 @@ def evaluationview(request, pk):
         post.useful_review_record = post.useful_review_record + author_name
         post.save()
         return redirect("list")
+
+def topview(request):
+    return render(request, "top.html", {})

@@ -1,3 +1,32 @@
 .card {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+}
+
+#footer-btn {
+    text-align: right;
+    padding: 50px;
+}
+
+.btn-blue {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+.btn-pink {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #d8669b;
+    color: #FFF;
+    border-bottom: solid 4px #965f88;
+    border-radius: 3px;
+}
+
+.list-group {
+    margin-top: 30px;
 }
