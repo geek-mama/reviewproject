@@ -13,6 +13,12 @@
   
       <a href="{% url 'list' %}" class="btn-blue">リストを見る</a>
       <a href="{% url 'create' %}" class="btn-blue">投稿する</a>
+
+    {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}" class="btn-blue">ログアウト</a>
+    {% else %}
+        <a href="{% url 'login' %}" class="btn-blue">ログイン</a>
+    {% endif %}
     
 </div>
 {% endblock content %}
